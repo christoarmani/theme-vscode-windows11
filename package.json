@@ -3,7 +3,7 @@
   "displayName": "Fluent 11 Dark",
   "description": "Windows 11 design language for VS Code: Mica-layered surfaces, Fluent accent, soft pastel syntax.",
   "version": "1.1.0",
-  "publisher": "you",
+  "publisher": "christoarmani",
   "engines": {
     "vscode": "^1.80.0"
   },
