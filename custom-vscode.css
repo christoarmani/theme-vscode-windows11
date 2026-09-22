@@ -1,0 +1,68 @@
+/* Fluent 11 — Custom CSS layer
+   Requires the "Custom CSS and JS Loader" extension (be5invis.vscode-custom-css).
+   For TRUE Mica desktop transparency install "Vibrancy Continued" instead/as well. */
+
+/* Rounded Win11-style tabs */
+.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab {
+  border-radius: 6px;
+  margin: 4px 2px 2px 2px;
+  height: 30px !important;
+  border: none !important;
+}
+.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab.active {
+  box-shadow: 0 1px 3px rgba(0,0,0,.3);
+}
+
+/* Rounded editor content layer, like a Win11 card */
+.monaco-workbench .part.editor > .content .editor-group-container > .editor-container {
+  border-radius: 8px 8px 0 0;
+  overflow: hidden;
+}
+
+/* Rounded list rows (explorer, quick pick) */
+.monaco-list .monaco-list-row { border-radius: 4px; }
+
+/* Acrylic-style flyouts */
+.monaco-workbench .quick-input-widget,
+.monaco-workbench .notifications-toasts .notification-toast,
+.monaco-menu-container .monaco-menu {
+  border-radius: 8px !important;
+  backdrop-filter: blur(30px) saturate(1.5);
+  background: rgba(44,44,44,.85) !important;
+  box-shadow: 0 8px 32px rgba(0,0,0,.45) !important;
+}
+
+/* --- Vibrancy Continued companion layer ---
+   Vibrancy makes the WHOLE window translucent, editor included.
+   These rules give the editor + terminal back a near-solid card
+   so code stays readable, while chrome (activity bar, sidebar,
+   title bar, status bar) keeps the acrylic blur. */
+.monaco-workbench .part.editor > .content .editor-group-container > .editor-container,
+.monaco-workbench .part.editor .monaco-editor,
+.monaco-workbench .part.editor .monaco-editor .monaco-editor-background,
+.monaco-workbench .part.editor .monaco-editor .margin {
+  background-color: #1b1b1b !important;
+}
+.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab.active {
+  background-color: #1b1b1b !important;
+}
+.monaco-workbench .part.panel,
+.monaco-workbench .part.panel .terminal-outer-container,
+.monaco-workbench .part.panel .xterm,
+.monaco-workbench .part.panel .xterm-viewport {
+  background-color: #181818 !important;
+}
+
+/* Softer scrollbars */
+.monaco-scrollable-element > .scrollbar > .slider { border-radius: 4px; }
+
+/* Segoe UI Variable for the workbench chrome */
+.monaco-workbench { font-family: "Segoe UI Variable Text", "Segoe UI", system-ui, sans-serif; }
+
+/* Transparent status bar (bottom bar) over the vibrant window */
+.monaco-workbench .part.statusbar {
+  background-color: transparent !important;
+  border-top: 1px solid rgba(255,255,255,.08) !important;
+}
+.monaco-workbench .part.statusbar .statusbar-item.left,
+.monaco-workbench .part.statusbar .statusbar-item.right { background-color: transparent !important; }

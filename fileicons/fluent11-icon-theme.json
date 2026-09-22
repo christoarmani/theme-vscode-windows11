@@ -1,0 +1,205 @@
+{
+  "iconDefinitions": {
+    "_folder": {
+      "iconPath": "./icons/folder.svg"
+    },
+    "_folder_open": {
+      "iconPath": "./icons/folder-open.svg"
+    },
+    "_file": {
+      "iconPath": "./icons/file.svg"
+    },
+    "_js": {
+      "iconPath": "./icons/js.svg"
+    },
+    "_ts": {
+      "iconPath": "./icons/ts.svg"
+    },
+    "_json": {
+      "iconPath": "./icons/json.svg"
+    },
+    "_html": {
+      "iconPath": "./icons/html.svg"
+    },
+    "_css": {
+      "iconPath": "./icons/css.svg"
+    },
+    "_md": {
+      "iconPath": "./icons/md.svg"
+    },
+    "_py": {
+      "iconPath": "./icons/py.svg"
+    },
+    "_image": {
+      "iconPath": "./icons/image.svg"
+    },
+    "_git": {
+      "iconPath": "./icons/git.svg"
+    },
+    "_vue": {
+      "iconPath": "./icons/vue.svg"
+    },
+    "_react": {
+      "iconPath": "./icons/react.svg"
+    },
+    "_rust": {
+      "iconPath": "./icons/rust.svg"
+    },
+    "_go": {
+      "iconPath": "./icons/go.svg"
+    },
+    "_java": {
+      "iconPath": "./icons/java.svg"
+    },
+    "_c": {
+      "iconPath": "./icons/c.svg"
+    },
+    "_cpp": {
+      "iconPath": "./icons/cpp.svg"
+    },
+    "_cs": {
+      "iconPath": "./icons/cs.svg"
+    },
+    "_php": {
+      "iconPath": "./icons/php.svg"
+    },
+    "_rb": {
+      "iconPath": "./icons/rb.svg"
+    },
+    "_sh": {
+      "iconPath": "./icons/sh.svg"
+    },
+    "_yaml": {
+      "iconPath": "./icons/yaml.svg"
+    },
+    "_xml": {
+      "iconPath": "./icons/xml.svg"
+    },
+    "_toml": {
+      "iconPath": "./icons/toml.svg"
+    },
+    "_sql": {
+      "iconPath": "./icons/sql.svg"
+    },
+    "_txt": {
+      "iconPath": "./icons/txt.svg"
+    },
+    "_pdf": {
+      "iconPath": "./icons/pdf.svg"
+    },
+    "_zip": {
+      "iconPath": "./icons/zip.svg"
+    },
+    "_font": {
+      "iconPath": "./icons/font.svg"
+    },
+    "_video": {
+      "iconPath": "./icons/video.svg"
+    },
+    "_audio": {
+      "iconPath": "./icons/audio.svg"
+    },
+    "_env": {
+      "iconPath": "./icons/env.svg"
+    },
+    "_docker": {
+      "iconPath": "./icons/docker.svg"
+    },
+    "_lock": {
+      "iconPath": "./icons/lock.svg"
+    }
+  },
+  "folder": "_folder",
+  "folderExpanded": "_folder_open",
+  "rootFolder": "_folder",
+  "rootFolderExpanded": "_folder_open",
+  "file": "_file",
+  "fileExtensions": {
+    "js": "_js",
+    "mjs": "_js",
+    "cjs": "_js",
+    "jsx": "_react",
+    "ts": "_ts",
+    "tsx": "_react",
+    "json": "_json",
+    "jsonc": "_json",
+    "html": "_html",
+    "htm": "_html",
+    "css": "_css",
+    "scss": "_css",
+    "less": "_css",
+    "md": "_md",
+    "markdown": "_md",
+    "py": "_py",
+    "png": "_image",
+    "jpg": "_image",
+    "jpeg": "_image",
+    "gif": "_image",
+    "svg": "_image",
+    "webp": "_image",
+    "ico": "_image",
+    "vue": "_vue",
+    "rs": "_rust",
+    "go": "_go",
+    "java": "_java",
+    "kt": "_java",
+    "c": "_c",
+    "h": "_c",
+    "cpp": "_cpp",
+    "cc": "_cpp",
+    "hpp": "_cpp",
+    "cs": "_cs",
+    "php": "_php",
+    "rb": "_rb",
+    "sh": "_sh",
+    "bash": "_sh",
+    "zsh": "_sh",
+    "ps1": "_sh",
+    "bat": "_sh",
+    "cmd": "_sh",
+    "yml": "_yaml",
+    "yaml": "_yaml",
+    "xml": "_xml",
+    "toml": "_toml",
+    "ini": "_toml",
+    "sql": "_sql",
+    "txt": "_txt",
+    "log": "_txt",
+    "pdf": "_pdf",
+    "zip": "_zip",
+    "gz": "_zip",
+    "tar": "_zip",
+    "rar": "_zip",
+    "7z": "_zip",
+    "ttf": "_font",
+    "otf": "_font",
+    "woff": "_font",
+    "woff2": "_font",
+    "mp4": "_video",
+    "mov": "_video",
+    "webm": "_video",
+    "mkv": "_video",
+    "avi": "_video",
+    "wmv": "_video",
+    "mp3": "_audio",
+    "wav": "_audio",
+    "m4a": "_audio",
+    "flac": "_audio",
+    "ogg": "_audio",
+    "env": "_env",
+    "lock": "_lock"
+  },
+  "fileNames": {
+    ".gitignore": "_git",
+    ".gitattributes": "_git",
+    ".env": "_env",
+    ".env.local": "_env",
+    "dockerfile": "_docker",
+    "docker-compose.yml": "_docker",
+    "docker-compose.yaml": "_docker",
+    "package-lock.json": "_lock",
+    "yarn.lock": "_lock",
+    "pnpm-lock.yaml": "_lock"
+  },
+  "hidesExplorerArrows": false
+}

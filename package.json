@@ -1,0 +1,42 @@
+{
+  "name": "fluent11-dark",
+  "displayName": "Fluent 11 Dark",
+  "description": "Windows 11 design language for VS Code: Mica-layered surfaces, Fluent accent, soft pastel syntax.",
+  "version": "1.1.0",
+  "publisher": "you",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Fluent 11 Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/fluent11-dark-color-theme.json"
+      }
+    ],
+    "iconThemes": [
+      {
+        "id": "fluent11-icons",
+        "label": "Fluent 11 Icons",
+        "path": "./fileicons/fluent11-icon-theme.json"
+      }
+    ]
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://example.com/your-repo"
+  },
+  "keywords": [
+    "theme",
+    "windows 11",
+    "fluent",
+    "mica",
+    "acrylic",
+    "icons"
+  ]
+}
