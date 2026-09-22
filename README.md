@@ -2,6 +2,25 @@
 
 Windows 11 design language for VS Code: Mica-layered chrome (#202020), high-contrast editor (#1b1b1b), Fluent accent (#0078D4), Segoe UI chrome, plus a Fluent-style file icon theme.
 
+![Fluent 11 Dark in VS Code, with the Fluent 11 Icons file icon theme and the custom CSS layer](images/screenshot.png)
+
+<sub>Fluent 11 Dark with Fluent 11 Icons and <code>custom-vscode.css</code> (Steps 1–3). Vibrancy (Step 4) not enabled.</sub>
+
+## File icons
+
+**Fluent 11 Icons** ships 36 flat, Fluent-style icons covering folders and the most common file types.
+
+<table>
+<tr><td align="center"><img src="fileicons/icons/folder.svg" width="32" height="32"><br><sub>folder</sub></td><td align="center"><img src="fileicons/icons/folder-open.svg" width="32" height="32"><br><sub>open folder</sub></td><td align="center"><img src="fileicons/icons/file.svg" width="32" height="32"><br><sub>default</sub></td><td align="center"><img src="fileicons/icons/js.svg" width="32" height="32"><br><sub>.js .mjs .cjs</sub></td><td align="center"><img src="fileicons/icons/ts.svg" width="32" height="32"><br><sub>.ts</sub></td><td align="center"><img src="fileicons/icons/json.svg" width="32" height="32"><br><sub>.json .jsonc</sub></td></tr>
+<tr><td align="center"><img src="fileicons/icons/html.svg" width="32" height="32"><br><sub>.html .htm</sub></td><td align="center"><img src="fileicons/icons/css.svg" width="32" height="32"><br><sub>.css .scss .less</sub></td><td align="center"><img src="fileicons/icons/md.svg" width="32" height="32"><br><sub>.md .markdown</sub></td><td align="center"><img src="fileicons/icons/py.svg" width="32" height="32"><br><sub>.py</sub></td><td align="center"><img src="fileicons/icons/image.svg" width="32" height="32"><br><sub>.png .jpg .jpeg</sub></td><td align="center"><img src="fileicons/icons/git.svg" width="32" height="32"><br><sub>.gitignore .gitattributes</sub></td></tr>
+<tr><td align="center"><img src="fileicons/icons/vue.svg" width="32" height="32"><br><sub>.vue</sub></td><td align="center"><img src="fileicons/icons/react.svg" width="32" height="32"><br><sub>.jsx .tsx</sub></td><td align="center"><img src="fileicons/icons/rust.svg" width="32" height="32"><br><sub>.rs</sub></td><td align="center"><img src="fileicons/icons/go.svg" width="32" height="32"><br><sub>.go</sub></td><td align="center"><img src="fileicons/icons/java.svg" width="32" height="32"><br><sub>.java .kt</sub></td><td align="center"><img src="fileicons/icons/c.svg" width="32" height="32"><br><sub>.c .h</sub></td></tr>
+<tr><td align="center"><img src="fileicons/icons/cpp.svg" width="32" height="32"><br><sub>.cpp .cc .hpp</sub></td><td align="center"><img src="fileicons/icons/cs.svg" width="32" height="32"><br><sub>.cs</sub></td><td align="center"><img src="fileicons/icons/php.svg" width="32" height="32"><br><sub>.php</sub></td><td align="center"><img src="fileicons/icons/rb.svg" width="32" height="32"><br><sub>.rb</sub></td><td align="center"><img src="fileicons/icons/sh.svg" width="32" height="32"><br><sub>.sh .bash .zsh</sub></td><td align="center"><img src="fileicons/icons/yaml.svg" width="32" height="32"><br><sub>.yml .yaml</sub></td></tr>
+<tr><td align="center"><img src="fileicons/icons/xml.svg" width="32" height="32"><br><sub>.xml</sub></td><td align="center"><img src="fileicons/icons/toml.svg" width="32" height="32"><br><sub>.toml .ini</sub></td><td align="center"><img src="fileicons/icons/sql.svg" width="32" height="32"><br><sub>.sql</sub></td><td align="center"><img src="fileicons/icons/txt.svg" width="32" height="32"><br><sub>.txt .log</sub></td><td align="center"><img src="fileicons/icons/pdf.svg" width="32" height="32"><br><sub>.pdf</sub></td><td align="center"><img src="fileicons/icons/zip.svg" width="32" height="32"><br><sub>.zip .gz .tar</sub></td></tr>
+<tr><td align="center"><img src="fileicons/icons/font.svg" width="32" height="32"><br><sub>.ttf .otf .woff</sub></td><td align="center"><img src="fileicons/icons/video.svg" width="32" height="32"><br><sub>.mp4 .mov .webm</sub></td><td align="center"><img src="fileicons/icons/audio.svg" width="32" height="32"><br><sub>.mp3 .wav .m4a</sub></td><td align="center"><img src="fileicons/icons/env.svg" width="32" height="32"><br><sub>.env .env.local</sub></td><td align="center"><img src="fileicons/icons/docker.svg" width="32" height="32"><br><sub>Dockerfile docker-compose</sub></td><td align="center"><img src="fileicons/icons/lock.svg" width="32" height="32"><br><sub>.lock lockfiles</sub></td></tr>
+</table>
+
+---
+
 **Running `install.cmd` alone is not enough.** The installer only copies the theme files. Follow all of Step 1–3 below; Steps 4–5 are optional polish.
 
 ---
